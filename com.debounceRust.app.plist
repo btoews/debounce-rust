@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>PATH</key>
+		<string>/usr/local/bin</string>
+	</dict>
+	<key>KeepAlive</key>
+	<true/>
+	<key>Label</key>
+	<string>com.debounceRust.app</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/local/bin/debounce-rust</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+
+	<!--
+	Uncomment the following lines for logging. You'll have to manually
+	create this file and chown it to belong to your user/group
+
+	<key>StandardOutPath</key>
+	<string>/var/log/debounce-rust.log</string>
+	<key>StandardErrorPath</key>
+	<string>/var/log/debounce-rust.log</string>
+	-->
+</dict>
+</plist>
